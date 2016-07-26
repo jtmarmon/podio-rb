@@ -20,11 +20,11 @@ module Podio
     end
 
     def client
-      Thread.current[:podio_client]
+      @client
     end
 
     def client=(new_client)
-      Thread.current[:podio_client] = new_client
+      @client = new_client
     end
 
     def with_client

@@ -21,7 +21,7 @@ The main way of using the Podio library is via a singleton client, which you set
 Podio.setup(:api_key => 'YOUR_API_KEY', :api_secret => 'YOUR_API_SECRET')
 ```
 
-This initializes a `Podio::Client` object and assigns it to a thread-local, which is used by all methods in this library.
+This initializes a `Podio::Client` object which is used by all methods in this library.
 
 
 Authentication
